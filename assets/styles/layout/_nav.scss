@@ -1,0 +1,29 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-family: Inter;
+  font-weight: lighter;
+  background: #c9c9c952;
+  margin: 10px 10px 0 10px;
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    .title {
+      padding: 10px;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+    }
+  }
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+  }
+}

@@ -1,0 +1,85 @@
+footer {
+  background: white;
+  margin: 10px;
+  margin-top: 0;
+
+  .foot {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin: 30px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 40%;
+
+    .name {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    .name-input {
+      padding: 5px;
+      width: 80%;
+    }
+
+    .email {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .email-input {
+      padding: 5px;
+      width: 80%;
+    }
+
+    .message {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .message-input {
+      padding: 50px;
+      width: 65%;
+    }
+    .submit {
+      padding: 10px;
+      margin: 30px;
+      background: transparent;
+      border-radius: 5px;
+      cursor: pointer;
+      border: 0.1px solid black;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      top: 355%;
+      left: 33.9%;
+      width: 27%;
+      height: 1px;
+      background: #80808059;
+      margin: 10px 50px;
+      transform: rotate(90deg);
+    }
+  }
+  .adresse {
+    display: block;
+  }
+
+  .fa-facebook {
+    padding: 10px;
+  }
+  .fa-twitter {
+    padding: 10px;
+  }
+  .fa-instagram {
+    padding: 10px;
+  }
+  .fa-github {
+    padding: 10px;
+  }
+}

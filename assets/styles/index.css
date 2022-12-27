@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Merriweather:wght@300&display=swap");
+body {
+  background: url("../img/bg.jpg") center/cover fixed;
+}
+
+h1 {
+  font-family: Inter;
+}
+
+p {
+  font-family: Merriweather;
+}
+
+button {
+  padding: 10px;
+  margin: 50px;
+  width: 10%;
+  background: transparent;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+header h1 {
+  font-size: 5rem;
+  color: white;
+  font-family: Inter;
+  text-align: center;
+  width: 50%;
+  text-transform: uppercase;
+}
+header p {
+  font-family: Merriweather;
+  color: white;
+}
+header .fa-angle-down {
+  font-size: 5rem;
+  color: rgba(219, 219, 219, 0.5803921569);
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-family: Inter;
+  font-weight: lighter;
+  background: rgba(201, 201, 201, 0.3215686275);
+  margin: 10px 10px 0 10px;
+}
+.navigation nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.navigation nav ul .title {
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+.navigation .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.container {
+  background: white;
+  margin: 10px;
+  margin-top: 0;
+}
+.container .article1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .article1 #date {
+  text-align: center;
+  padding: 50px;
+  font-family: Merriweather;
+}
+.container .article1 #date::before {
+  content: "";
+  position: absolute;
+  left: 50px;
+  width: 40%;
+  height: 1px;
+  background: rgba(128, 128, 128, 0.3490196078);
+  margin: 10px 30px;
+}
+.container .article1 #date::after {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 1px;
+  background: rgba(128, 128, 128, 0.3490196078);
+  margin: 10px 50px;
+}
+.container .article1 #title1 {
+  font-family: Inter;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 4.5rem;
+  letter-spacing: 5px;
+  width: 50%;
+}
+.container .article1 #p1 {
+  text-align: center;
+  font-family: Merriweather;
+  width: 50%;
+  line-height: 50px;
+}
+.container .article1 img {
+  width: 70%;
+}
+.container .article2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .article2 .first-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .article2 .p2 {
+  text-align: center;
+}
+.container .article2 .title2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.3rem;
+  letter-spacing: 5px;
+  width: 50%;
+}
+.container .article2 .second-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .article2 .lorem {
+  text-align: left;
+  width: 50%;
+  line-height: 30px;
+}
+.container .article2::after {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 1px;
+  background: rgba(128, 128, 128, 0.3490196078);
+  margin: 10px 50px;
+  transform: rotate(90deg);
+}
+.container .article2 .btn-2 {
+  width: 20%;
+}
+.container .article2 img {
+  width: 50%;
+}
+
+footer {
+  background: white;
+  margin: 10px;
+  margin-top: 0;
+}
+footer .foot {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  margin: 30px;
+}
+footer form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+footer form .name {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+footer form .name-input {
+  padding: 5px;
+  width: 80%;
+}
+footer form .email {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+footer form .email-input {
+  padding: 5px;
+  width: 80%;
+}
+footer form .message {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+footer form .message-input {
+  padding: 50px;
+  width: 65%;
+}
+footer form .submit {
+  padding: 10px;
+  margin: 30px;
+  background: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 0.1px solid black;
+}
+footer form::after {
+  content: "";
+  position: absolute;
+  top: 355%;
+  left: 33.9%;
+  width: 27%;
+  height: 1px;
+  background: rgba(128, 128, 128, 0.3490196078);
+  margin: 10px 50px;
+  transform: rotate(90deg);
+}
+footer .adresse {
+  display: block;
+}
+footer .fa-facebook {
+  padding: 10px;
+}
+footer .fa-twitter {
+  padding: 10px;
+}
+footer .fa-instagram {
+  padding: 10px;
+}
+footer .fa-github {
+  padding: 10px;
+}/*# sourceMappingURL=index.css.map */

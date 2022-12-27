@@ -1,0 +1,24 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+
+  h1 {
+    font-size: 5rem;
+    color: white;
+    font-family: Inter;
+    text-align: center;
+    width: 50%;
+    text-transform: uppercase;
+  }
+  p {
+    font-family: Merriweather;
+    color: white;
+  }
+  .fa-angle-down {
+    font-size: 5rem;
+    color: #dbdbdb94;
+  }
+}
